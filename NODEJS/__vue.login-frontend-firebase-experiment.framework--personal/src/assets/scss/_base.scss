@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, 
+body {
+    background-color: rgb(255, 187, 0);
+    height:100%;
+}
+
+body,
+section,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+label {
+    font-size: 1.2em;
+    padding: 0 5px;
+}
+
+span{
+    font-size: 0.85em;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+pre{
+    display: block;
+}
+
+.todoapp-span{
+    font-size: 1em;
+}

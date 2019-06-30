@@ -1,0 +1,29 @@
+{
+	"name": "sequalize_models",
+	"version": "1.0.0",
+	"description": "Example with Sequelize and creating of models",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alxmcr/__self_edu-nodejs-01.07--sequelize.models--personal.git"
+	},
+	"keywords": [
+		"nodejs",
+		"sequelize",
+		"orm",
+		"database"
+	],
+	"author": "Alejandro M. Coca Rojas",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/alxmcr/__self_edu-nodejs-01.07--sequelize.models--personal/issues"
+	},
+	"homepage": "https://github.com/alxmcr/__self_edu-nodejs-01.07--sequelize.models--personal#readme",
+	"devDependencies": {
+		"pg": "^7.4.1",
+		"sequelize": "^4.31.0"
+	}
+}

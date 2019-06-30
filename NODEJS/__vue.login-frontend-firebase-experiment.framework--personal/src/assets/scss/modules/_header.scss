@@ -1,0 +1,22 @@
+/* ---- MEDIA QUERIES ---- */
+
+/* Small Screen */
+@media screen and (min-width: 600px){
+    .todoapp-header-nav{
+        display: flex;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 860px){
+    .todoapp-header-nav{
+        display: flex;
+    }
+}
+
+/* It's over 9000 */
+@media screen and (min-width: 1200px){
+    .todoapp-header-nav{
+        display: flex;
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "sequelize_orm_basic",
+  "version": "1.0.0",
+  "description": "Example with ORM sequelize with PostgreSQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxmcr/__self_edu-nodejs-01.06--sequelize.basic--personal.git"
+  },
+  "keywords": [
+    "nodejs",
+    "sequelize",
+    "databases",
+    "orm",
+    "postgresql"
+  ],
+  "author": "Alejandro M. Coca Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alxmcr/__self_edu-nodejs-01.06--sequelize.basic--personal/issues"
+  },
+  "homepage": "https://github.com/alxmcr/__self_edu-nodejs-01.06--sequelize.basic--personal#readme",
+  "devDependencies": {
+    "pg": "^7.4.1",
+    "sequelize": "^4.31.0"
+  }
+}

@@ -1,0 +1,33 @@
+.todoapp-group-checkbox{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.todoapp-group-input{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+
+/* ---- MEDIA QUERIES ---- */
+
+/* Small Screen */
+@media screen and (min-width: 600px){
+
+}
+
+/* Desktop */
+@media screen and (min-width: 860px){
+
+}
+
+/* It's over 9000 */
+@media screen and (min-width: 1200px){
+
+}

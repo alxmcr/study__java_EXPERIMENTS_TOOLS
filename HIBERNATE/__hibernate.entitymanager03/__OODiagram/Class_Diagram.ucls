@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.alxmcr.dao.CourseDAOImpl" project="__hibernate.entitymanager03" 
+    file="/__hibernate.entitymanager03/src/main/java/com/alxmcr/dao/CourseDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="256" width="298" x="88" y="51"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.alxmcr.dao.PersonDAO" project="__hibernate.entitymanager03" 
+    file="/__hibernate.entitymanager03/src/main/java/com/alxmcr/dao/PersonDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="297" x="426" y="51"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="com.alxmcr.dao.SchoolDAO" project="__hibernate.entitymanager03" 
+    file="/__hibernate.entitymanager03/src/main/java/com/alxmcr/dao/SchoolDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="295" x="763" y="347"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="com.alxmcr.dao.SchoolDAOImpl" project="__hibernate.entitymanager03" 
+    file="/__hibernate.entitymanager03/src/main/java/com/alxmcr/dao/SchoolDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="256" width="295" x="763" y="51"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="com.alxmcr.dao.CourseDAO" project="__hibernate.entitymanager03" 
+    file="/__hibernate.entitymanager03/src/main/java/com/alxmcr/dao/CourseDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="298" x="88" y="347"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="com.alxmcr.dao.PersonDAOImpl" project="__hibernate.entitymanager03" 
+    file="/__hibernate.entitymanager03/src/main/java/com/alxmcr/dao/PersonDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="216" width="262" x="1098" y="51"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="com.alxmcr.dao.Dao" project="__hibernate.entitymanager03" 
+    file="/__hibernate.entitymanager03/src/main/java/com/alxmcr/dao/Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="262" x="1098" y="347"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="8">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

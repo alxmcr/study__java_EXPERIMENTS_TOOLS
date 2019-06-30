@@ -1,0 +1,15 @@
+input[type="email"],
+input[type="password"],
+input[type="text"]{
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input[type="checkbox"],
+input[type="email"],
+input[type="password"],
+input[type="text"]{
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.box-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.mdl-layout__content{
+    padding: 24px;
+    flex: none;
+}
+
+.demo-layout-transparent {
+    background-color: #006be5;
+}
+
+.demo-layout-trasparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    color: white;
+}
+
+.mdl-grid.center-items {
+    justify-content: center;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "express-server-basic",
+  "version": "0.0.1",
+  "description": "Basic Express HTTP Server",
+  "main": "server-express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alxmcr/__self_edu-nodejs-01.03--express.http.server--personal.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "http",
+    "server",
+    "basic"
+  ],
+  "author": "Alejandro M. Coca Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alxmcr/__self_edu-nodejs-01.03--express.http.server--personal/issues"
+  },
+  "homepage": "https://github.com/alxmcr/__self_edu-nodejs-01.03--express.http.server--personal#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

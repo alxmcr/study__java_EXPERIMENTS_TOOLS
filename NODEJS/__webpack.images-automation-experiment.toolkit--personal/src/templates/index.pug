@@ -1,0 +1,10 @@
+doctype html  
+html(lang='en')  
+ head
+   title #{htmlWebpackPlugin.options.title}
+ body
+   h1 #{htmlWebpackPlugin.options.title} works!!!
+   div(class="grid")
+      img(class="grid-img", src=require("../assets/images/benjamin-unsplash.jpg"))
+      img(class="grid-img", src=require("../assets/images/chng-unsplash.jpg"))
+      img(class="grid-img", src=require("../assets/images/george-unsplash.jpg"))

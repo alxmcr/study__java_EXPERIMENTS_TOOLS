@@ -1,0 +1,30 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Proyecto de API RESTful con Node.js y Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "restful",
+    "api"
+  ],
+  "author": "Alejandro",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}

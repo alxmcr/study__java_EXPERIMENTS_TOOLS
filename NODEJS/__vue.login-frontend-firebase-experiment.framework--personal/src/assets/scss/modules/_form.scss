@@ -1,0 +1,23 @@
+.todoapp-form{
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.todoapp-form-error{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.todoapp-error{
+    display: flex;
+    font-size: 1.2em;
+    text-align: center;
+}

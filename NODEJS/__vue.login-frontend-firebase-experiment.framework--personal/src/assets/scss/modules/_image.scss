@@ -1,0 +1,36 @@
+.todoapp-img-logo,
+.todoapp-img-user{
+    height: 40px;
+    width: 40px;
+}
+
+.todoapp-img-user{
+    border-radius: 10px;
+}
+
+.todoapp-img-user[alt]{
+    background-color: black;
+}
+
+.todoapp-img-profile{
+    display: none;
+}
+
+/* ---- MEDIA QUERIES ---- */
+
+/* Small Screen */
+@media screen and (min-width: 600px){
+    .todoapp-img-profile{
+        display: flex;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 860px){
+
+}
+
+/* It's over 9000 */
+@media screen and (min-width: 1200px){
+
+}

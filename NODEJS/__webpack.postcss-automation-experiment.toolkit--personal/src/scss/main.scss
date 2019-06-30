@@ -1,0 +1,34 @@
+@import './partials/headings';
+
+body {
+    background-color: purple;
+    height: 100vh;
+}
+
+#logo {
+    width: 300px;
+}
+
+// 👉 For autoprefixer
+::placeholder {
+    color: gray;
+}
+
+/*Declaración*/
+@mixin truncate($width: 100%) {
+    width: $width;
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*Uso*/
+.foo {
+    @include truncate(100px);
+}
+
+.bar {
+    @include truncate(10px);
+}

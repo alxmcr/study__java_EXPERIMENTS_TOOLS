@@ -1,0 +1,41 @@
+package com.alxmcr.constantes;
+
+public class ConstanteMensajes {
+	public static final String CONEXION_ABIERTA = "***** Conexion Abierta *****";
+	public static final String CONEXION_CERRADA = "***** Conexion Cerrada *****";
+	public static final String ERROR_APERTURA_CONEXION = "No se pudo abrir una conexion";
+	public static final String ERROR_CERRAR_CONEXION = "No se pudo cerrar una conexion";
+	public static final String EXITO_ADICION = "Se adiciono correctamente";
+	public static final String ERROR_ADICION = "Error. No se pudo adicionar correctamente";
+	public static final String EXITO_ACTUALIZACION = "Se actualizo correctamente";
+	public static final String ERROR_ACTUALIZACION = "Error. No se pudo actualizar correctamente";
+	public static final String ERROR_CONEXION_NO_ABIERTA = "La conexion no esta abierta";
+	public static final String DATO_VACIO = "Dato Vacio";
+	public static final String OBJETO_NULO = "Objeto Nulo";
+	public static final String OBJETO_VACIO = "Objeto Vacio";
+	public static final String OBJETO_NULO_O_VACIO = "Objeto nulo o vacio";
+	public static final String DATOS_INCOMPLETOS = "Datos incompletos";
+	public static final String EXITO_INICIO_SESION = "Sesion Iniciada";
+	public static final String ERROR_INICIO_SESION = "No se inicio sesion";
+	public static final String REDIRECCION_URL = "Redirigiendo a: {0}";
+	public static final String NO_COINCIDEN_DATOS = "No coinciden los datos";
+	public static final String REGISTRO_DUPLICADO = "Registro Duplicado. No se puede registrar";
+	public static final String SI_EXISTE_REGISTRO = "Si, existe el registro";
+	public static final String NO_EXISTE_REGISTRO = "No, existe el registro";
+	public static final String NUMERO_NEGATIVO = "Es un numero negativo";
+	public static final String SIN_RESULTADOS = "Sin resultados";
+	public static final String SIN_REGISTROS_BD = "Sin registros en la BD";
+	public static final String REGISTRO_SATISFACTORIO = "REGISTRO SATISFACTORIO";
+	public static final String REGISTRO_INSATISFACTORIO = "REGISTRO INSATISFACTORIO";
+	public static final String ACTUALIZACION_SATISFACTORIO = "ACTUALIZACION SATISFACTORIO";
+	public static final String ACTUALIZACION_INSATISFACTORIO = "ACTUALIZACION INSATISFACTORIO";
+	public static final String EDICION_INSATISFACTORIA = "EDICION INSATISFACTORIA";
+	public static final String NO_EXISTE_TIPO_DATO = "NO EXISTE TIPO DATO";
+	public static final String SIN_TAREAS_DIA = "NO hay tareas para este dia";
+	public static final String CAMBIO_ESTADO_INSATISFACTORIO = "CAMBIO ESTADO INSATISFACTORIO";
+	public static final String ERROR_CLASE_NO_ENCONTRADA = "No se encontro la clase";
+	public static final String ERROR_REGISTRO_NO_ENCONTRADO = "No se encontro el registro";
+	public static final String ID_SIN_DEFINIR = "ID SIN DEFINIR";
+	public static final String NO_HAY_NADA_QUE_ACTUALIZAR = "NO HAY NADA QUE ACTUALIZAR";
+	public static final String PROBLEMAS_CON_QUERY = "PROBLEMAS CON QUERY";
+}

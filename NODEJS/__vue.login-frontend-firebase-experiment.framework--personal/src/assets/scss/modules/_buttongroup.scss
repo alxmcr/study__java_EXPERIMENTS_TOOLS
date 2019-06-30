@@ -1,0 +1,50 @@
+.todoapp-group-button{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.todoapp-group-card,
+.todoapp-group-button-social{
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/* ---- MEDIA QUERIES ---- */
+
+/* Small Screen */
+@media screen and (min-width: 600px){
+    .todoapp-group-card,
+    .todoapp-group-button-social{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 860px){
+    .todoapp-group-card,
+    .todoapp-group-button-social{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+/* It's over 9000 */
+@media screen and (min-width: 1200px){
+    .todoapp-group-card,
+    .todoapp-group-button-social{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

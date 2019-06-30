@@ -1,0 +1,13 @@
+.gallery {
+    background-color: purple;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0.5em;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.gallery-item {
+    text-align: center;
+}

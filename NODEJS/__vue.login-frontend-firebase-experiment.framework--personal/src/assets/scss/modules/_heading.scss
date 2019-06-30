@@ -1,0 +1,37 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    padding: 0;
+}
+
+.todoapp-brand-title{
+    color: white;
+    display: none;
+}
+
+.todoapp-form-title{
+    text-align: center;
+}
+
+/* ---- MEDIA QUERIES ---- */
+
+/* Small Screen */
+@media screen and (min-width: 600px){
+    .todoapp-brand-title{
+        display: flex;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 860px){
+
+}
+
+/* It's over 9000 */
+@media screen and (min-width: 1200px){
+
+}

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  a(href="/") Back
+  // register form
+  form(method='POST' action='/login')
+    div.form-group
+      label(for='username') Name:
+      input#username.form-control(type='text', placeholder='username' name='username')
+    div.form-group
+      label(for='pw') Password:
+      input#pw.form-control(type='password' name='password')
+    button.btn.btn-primary(type='submit') Log In
+    button.btn.btn-primary(type='reset') Reset

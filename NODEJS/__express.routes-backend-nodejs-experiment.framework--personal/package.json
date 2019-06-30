@@ -1,0 +1,28 @@
+{
+  "name": "express_routes_basic",
+  "version": "1.0.0",
+  "description": "Express with basic routes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alxmcr/__self_edu-nodejs-01.04--express.routes.basic--personal.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "routing",
+    "basic"
+  ],
+  "author": "Alejandro M. Coca Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alxmcr/__self_edu-nodejs-01.04--express.routes.basic--personal/issues"
+  },
+  "homepage": "https://github.com/alxmcr/__self_edu-nodejs-01.04--express.routes.basic--personal#readme",
+  "devDependencies": {
+    "express": "^4.16.2"
+  }
+}

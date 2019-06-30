@@ -1,0 +1,19 @@
+.footer-element{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.todoapp-footer-item{
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+// .todoapp-footer-item:hover{
+//     background-color: black;
+//     color: white;
+// }

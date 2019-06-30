@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js - Props validation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <person v-for="(person, index) in persons"
+                        :key="index"
+                        :name="person.name"
+                        :email="person.email"
+                        :profile="person.profile"
+                        :location="person.location"></person>
+    </main>
+
+    <script type="text/x-template" id="person-template">
+        <div class="person">
+            <img :src="profile" alt="">
+            <ul>
+                <li>{{ name }}</li>
+                <li>{{ email }}</li>
+            <li>{{ location }}</li>
+            </ul>
+        </div>
+    </script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.15/vue.js"></script> -->
+    <script src="https://unpkg.com/vue"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

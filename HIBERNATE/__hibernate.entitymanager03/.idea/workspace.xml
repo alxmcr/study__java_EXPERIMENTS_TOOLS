@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="109194e5-d272-4814-9543-3460a8542447" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../entity-manager-07/src/main/java/com/example/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../entity-manager-07/src/main/java/com/example/dao/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../entity-manager-07/src/main/java/com/example/dao/PersonDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../entity-manager-07/src/main/java/com/example/dao/PersonDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../entity-manager-07/src/main/java/com/example/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../entity-manager-07/src/main/java/com/example/services/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../entity-manager-07/src/main/java/com/example/services/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../entity-manager-07/src/main/java/com/example/services/PersonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../entity-manager-07/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../entity-manager-07/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../entity-manager-07/src/test/java/services/PersonServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../entity-manager-07/src/test/java/services/PersonServiceImplTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>b</find>
+      <find>em</find>
+      <find>personByName</find>
+      <find>peopleQuery</find>
+      <find>person</find>
+      <find>courseByName</find>
+      <find>courseQuery</find>
+      <find>entityManager</find>
+      <find>T</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>person</replace>
+      <replace>entityManager</replace>
+      <replace>courseByName</replace>
+      <replace>courseQuery</replace>
+      <replace>course</replace>
+      <replace>schoolByName</replace>
+      <replace>schoolQuery</replace>
+      <replace>this.em</replace>
+      <replace>Person</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/alxmcr/dao/test/PersonDAOImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alxmcr/dao/PersonDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alxmcr/entities/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alxmcr/entities/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alxmcr/entities/School.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/alxmcr/dao/PersonDAOImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alxmcr/dao/Dao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alxmcr/services/PersonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alxmcr/dao/CourseDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alxmcr/dao/SchoolDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alxmcr/dao/PersonDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alxmcr/services/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/alxmcr/services/PersonServiceImplTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Hibernate Entitymanager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="354" />
+    <option name="y" value="24" />
+    <option name="width" value="1650" />
+    <option name="height" value="930" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="__hibernate.entitymanager03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="__hibernate.entitymanager03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="__hibernate.entitymanager03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="__hibernate.entitymanager03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="__hibernate.entitymanager03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="__hibernate.entitymanager03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="__hibernate.entitymanager03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="__hibernate.entitymanager03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="__hibernate.entitymanager03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="__hibernate.entitymanager03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alxmcr" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="__hibernate.entitymanager03" type="58d84e3e:PackageViewProjectNode" />
+              <item name="__hibernate.entitymanager03" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="__hibernate.entitymanager03" type="58d84e3e:PackageViewProjectNode" />
+              <item name="__hibernate.entitymanager03" type="616d4139:PackageViewModuleNode" />
+              <item name="com.alxmcr" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/alxmcr" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alxmcr.services" />
+      <recent name="com.alxmcr.dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonServiceImplTest.savePersonRollback">
+    <configuration name="PersonDAOImplTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="__hibernate.entitymanager03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alxmcr.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alxmcr.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.alxmcr.dao.PersonDAOImplTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonDAOImplTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="__hibernate.entitymanager03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alxmcr.dao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alxmcr.dao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.alxmcr.dao.test.PersonDAOImplTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonServiceImplTest.getPersonById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="__hibernate.entitymanager03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alxmcr.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alxmcr.services" />
+      <option name="MAIN_CLASS_NAME" value="com.alxmcr.services.PersonServiceImplTest" />
+      <option name="METHOD_NAME" value="getPersonById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonServiceImplTest.savePerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="__hibernate.entitymanager03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alxmcr.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alxmcr.services" />
+      <option name="MAIN_CLASS_NAME" value="com.alxmcr.services.PersonServiceImplTest" />
+      <option name="METHOD_NAME" value="savePerson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonServiceImplTest.savePersonRollback" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="__hibernate.entitymanager03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alxmcr.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alxmcr.services" />
+      <option name="MAIN_CLASS_NAME" value="com.alxmcr.services.PersonServiceImplTest" />
+      <option name="METHOD_NAME" value="savePersonRollback" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonServiceImplTest.savePersonRollback" />
+        <item itemvalue="JUnit.PersonServiceImplTest.savePerson" />
+        <item itemvalue="JUnit.PersonDAOImplTest.save" />
+        <item itemvalue="JUnit.PersonServiceImplTest.getPersonById" />
+        <item itemvalue="JUnit.PersonDAOImplTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="109194e5-d272-4814-9543-3460a8542447" name="Default Changelist" comment="" />
+      <created>1557713836115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557713836115</updated>
+      <workItem from="1557713839076" duration="183000" />
+      <workItem from="1557714526409" duration="2521000" />
+      <workItem from="1557779154902" duration="1307000" />
+      <workItem from="1557800309959" duration="4691000" />
+      <workItem from="1557849725424" duration="5453000" />
+      <workItem from="1557855258556" duration="37000" />
+      <workItem from="1557862652327" duration="3230000" />
+      <workItem from="1557886552794" duration="4029000" />
+      <workItem from="1557892193784" duration="663000" />
+      <workItem from="1557936351551" duration="688000" />
+      <workItem from="1557939068444" duration="599000" />
+      <workItem from="1557975406121" duration="35000" />
+      <workItem from="1557975457384" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PersonServiceImplTest_savePersonRollback - 2019.05.14 at 22h 27m 38s.xml">
+      <configuration name="PersonServiceImplTest.savePersonRollback" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonServiceImplTest_savePersonRollback - 2019.05.14 at 22h 28m 40s.xml">
+      <configuration name="PersonServiceImplTest.savePersonRollback" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonServiceImplTest_savePersonRollback - 2019.05.14 at 22h 34m 26s.xml">
+      <configuration name="PersonServiceImplTest.savePersonRollback" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonServiceImplTest_savePersonRollback - 2019.05.14 at 22h 36m 40s.xml">
+      <configuration name="PersonServiceImplTest.savePersonRollback" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonServiceImplTest_savePersonRollback - 2019.05.14 at 22h 37m 16s.xml">
+      <configuration name="PersonServiceImplTest.savePersonRollback" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonServiceImplTest_savePersonRollback - 2019.05.14 at 22h 38m 35s.xml">
+      <configuration name="PersonServiceImplTest.savePersonRollback" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonServiceImplTest_savePersonRollback - 2019.05.14 at 22h 38m 52s.xml">
+      <configuration name="PersonServiceImplTest.savePersonRollback" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonServiceImplTest_savePersonRollback - 2019.05.14 at 22h 39m 24s.xml">
+      <configuration name="PersonServiceImplTest.savePersonRollback" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonServiceImplTest_savePersonRollback - 2019.05.14 at 22h 40m 01s.xml">
+      <configuration name="PersonServiceImplTest.savePersonRollback" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonServiceImplTest_savePersonRollback - 2019.05.14 at 23h 22m 50s.xml">
+      <configuration name="PersonServiceImplTest.savePersonRollback" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23447000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1135" height="675" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.2855814" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Persistence" order="7" sideWeight="0.50151974" side_tool="true" weight="0.2632558" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46734694" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32857144" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32857144" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24930233" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3283721" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3293023" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.2632558" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Persistence" order="7" sideWeight="0.50151974" side_tool="true" weight="0.2632558" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46734694" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32857144" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32857144" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24930233" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3283721" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3293023" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alxmcr/dao/SchoolDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="101" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alxmcr/dao/PersonDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/alxmcr/dao/test/PersonDAOImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alxmcr/dao/CourseDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alxmcr/entities/School.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alxmcr/entities/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/alxmcr/dao/PersonDAOImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="86" column="47" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alxmcr/dao/CourseDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alxmcr/dao/SchoolDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/alxmcr/services/PersonServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" column="29" selection-end-line="120" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#savePerson#0;class#PersonServiceImplTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alxmcr/services/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alxmcr/services/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alxmcr/entities/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="62" column="38" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alxmcr/dao/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="25" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alxmcr/dao/PersonDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="33" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

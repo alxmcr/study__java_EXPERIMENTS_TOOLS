@@ -1,0 +1,71 @@
+ul{
+    margin-top: 0;
+}
+
+.todoapp-footer-list,
+.todoapp-header-sublist,
+.todoapp-header-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.todoapp-footer-list{
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.todoapp-footer-list,
+.todoapp-header-sublist,
+.todoapp-header-subitem{
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.todoapp-header-list{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.todoapp-header-subitem{
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* ---- MEDIA QUERIES ---- */
+
+/* Small Screen */
+@media screen and (min-width: 600px){
+    .todoapp-footer-list,
+    .todoapp-header-sublist,
+    .todoapp-header-list{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .todoapp-header-subitem{
+        margin-left: 5px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 860px){
+
+}
+
+/* It's over 9000 */
+@media screen and (min-width: 1200px){
+
+}

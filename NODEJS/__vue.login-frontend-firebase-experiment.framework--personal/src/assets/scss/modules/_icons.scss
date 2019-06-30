@@ -1,0 +1,85 @@
+.fa-arrow-down{
+  background-color: rgb(56, 184, 56);
+  border: 1px solid rgb(56, 184, 56);
+  color: white;
+}
+
+.fa-arrow-down:hover{
+  background-color: rgb(56, 184, 56);
+  border: 1px solid rgb(56, 184, 56);
+  color: black;
+}
+
+.fa-check-circle{
+  color: rgb(56, 184, 56);
+  display: flex;
+  margin: 0 auto;
+}
+
+.fa-arrow-up,
+.fa-times{
+  background-color: rgb(202, 102, 102);
+  border: 1px solid rgb(202, 102, 102);
+  color: white;
+}
+
+.fa-save{
+  background-color: blue;
+  border: 1px solid blue;
+  color: white;
+}
+
+.fa-save,
+.fa-times,
+.fa-arrow-down,
+.fa-arrow-up{
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+
+.fa-arrow-down:hover,
+.fa-arrow-up:hover,
+.fa-save:hover,
+.fa-times:hover{
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+
+
+.fa-at,
+.fa-envelope,
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin,
+.fa-map-marker-alt,
+.fa-phone,
+.fa-plus,
+.fa-skype,
+.fa-twitter{
+  font-size: 1.5em;
+}
+
+// .fa-facebook{
+//   color: rgb(52, 52, 161);
+// }
+
+// .fa-instagram{
+//   color: #d10869;
+// }
+
+// .fa-plus{
+//   color: white;
+// }
+
+// .fa-twitter{
+//   color: #1da1f2;
+// }
+
+// .fa-facebook:hover,
+// .fa-instagram:hover,
+// .fa-twitter:hover{
+//   background-color: black;
+//   border-radius: 10px;
+//   color: white;
+// }

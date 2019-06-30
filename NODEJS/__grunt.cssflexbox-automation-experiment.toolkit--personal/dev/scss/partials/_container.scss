@@ -1,0 +1,10 @@
+.container {
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0 auto;
+    width: 85%;
+    flex-wrap: wrap;
+}

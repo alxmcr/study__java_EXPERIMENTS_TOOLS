@@ -1,0 +1,59 @@
+.link-header:link,
+.link-header:visited,
+.link-logout:link,
+.link-logout:visited,
+.link-login:link,
+.link-login:visited,
+.link-profile:link,
+.link-profile:visited,
+.link-signin:link,
+.link-signin:visited,
+.link-signup:link,
+.link-signup:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.link-footer{
+    display: flex;
+    padding: 10px;
+}
+
+.link-header{
+    display: flex;
+    padding: 10px;
+}
+
+.link-about:link,
+.link-about:visited,
+.link-footer:link,
+.link-footer:visited,
+.link-form:link,
+.link-form:visited,
+.link-forgot-password:link,
+.link-forgot-password:visited{
+    color: white;
+}
+
+.link-form{
+    margin-bottom: 10px;
+}
+
+.link-footer-social{
+    display: flex;
+}
+
+.link-signin{
+    background-color: purple;
+    border: 1px solid purple;
+    border-radius: 10px;
+    color: white; 
+}
+
+.link-signup{
+    background-color: rgb(56, 184, 56);
+    border: 1px solid rgb(56, 184, 56);
+    border-radius: 10px;
+    color: white;
+}
+

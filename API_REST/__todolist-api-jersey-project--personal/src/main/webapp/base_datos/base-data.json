@@ -1,0 +1,47 @@
+[
+    {
+        "idtarea" : "121f6004-8563-11e4-9234-0123456789ab",
+        "fecha_creacion": "2014-12-02",
+        "hora_creacion": "17:18:07",
+        "fecha_modificacion": "2014-12-09",
+        "hora_modificacion": "16:28:44",
+        "texto": "tarea 1",
+        "estado": "pendiente"
+    },
+    {
+        "idtarea": "1e2e27e4-8eba-11e4-9234-0123456789ab",
+        "fecha_creacion": "2014-12-28",
+        "hora_creacion": "13:51:14",
+        "fecha_modificacion": "2014-12-28",
+        "hora_modificacion": "13:51:14",
+        "texto": "tarea 1",
+        "estado": "concluida"
+    },
+    {
+        "idtarea": "eeb9fb74-8eb8-11e4-9234-0123456789ab",
+        "fecha_creacion": "2014-12-28",
+        "hora_creacion": "13:42:45",
+        "fecha_modificacion": "2014-12-28",
+        "hora_modificacion": "13:42:45",
+        "texto": "tarea 1",
+        "estado": "pendiente"     
+    },
+    {
+        "idtarea": "f19e54b4-8ece-11e4-9234-0123456789ab",
+        "fecha_creacion": "2014-12-28",
+        "hora_creacion": "16:20:19",
+        "fecha_modificacion": "2014-12-28",
+        "hora_modificacion": "16:20:19",
+        "texto": "tarea 1",
+        "estado": "archivada"    
+    },
+    {
+        "idtarea": "f4b0bcd4-8562-11e4-9234-0123456789ab",
+        "fecha_creacion": "2014-12-24",
+        "hora_creacion": "08:24:45",
+        "fecha_modificacion": "2014-12-28",
+        "hora_modificacion": "15:43:32",
+        "texto": "tarea 1",
+        "estado": "concluida"    
+    }
+]

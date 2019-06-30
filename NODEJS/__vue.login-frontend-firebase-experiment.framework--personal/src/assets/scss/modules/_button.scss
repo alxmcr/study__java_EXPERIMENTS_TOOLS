@@ -1,0 +1,47 @@
+button{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.todoapp-button{
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.todoapp-button-danger{
+    background-color: rgb(202, 102, 102);
+    border: 1px solid rgb(202, 102, 102);
+    color: white;
+}
+
+.todoapp-button-edit{
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+}
+
+.todoapp-button-facebook{
+    background-color: rgb(52, 52, 161);
+    border: 1px solid rgb(52, 52, 161);
+    color: white;
+}
+
+.todoapp-button-google{
+    background-color: rgb(202, 102, 102);
+    border: 1px solid rgb(202, 102, 102);
+    color: white;
+}
+
+.todoapp-button-success{
+    background-color: rgb(56, 184, 56);
+    border: 1px solid rgb(56, 184, 56);
+    color: white;
+}
+
+.todoapp-button-option{
+    background-color: purple;
+    border: 1px solid purple;
+    color: white;
+    padding: 10px;
+}

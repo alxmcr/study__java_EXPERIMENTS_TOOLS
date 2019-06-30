@@ -1,0 +1,21 @@
+{
+  "name": "GridGulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-dart-sass": "^0.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-livereload": "^4.0.0"
+  }
+}

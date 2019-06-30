@@ -1,0 +1,39 @@
+{
+    "products": [
+        {
+            "price": 1200,
+            "name": "MacBook Pro",
+            "picture": "macbook.png",
+            "category": "computers",
+            "description": "Nice laptop!!!"
+        },
+        {
+            "price": 4200,
+            "name": "Huawei Phone",
+            "picture": "huawei.png",
+            "category": "phones",
+            "description": "Nice phone!!!"
+        },
+        {
+            "price": 800,
+            "name": "iPhone",
+            "picture": "iiphone.png",
+            "category": "phones",
+            "description": "Nice iphone!!!"
+        },
+        {
+            "price": 323,
+            "name": "Acer",
+            "picture": "acer.png",
+            "category": "computers",
+            "description": "Bad laptop!!!"
+        },
+        {
+            "price": 5689,
+            "name":"Sony watcher",
+            "picture":"sony.png",
+            "category":"accesories",
+            "description": "Cool watcher!!!"
+        }
+    ]
+}

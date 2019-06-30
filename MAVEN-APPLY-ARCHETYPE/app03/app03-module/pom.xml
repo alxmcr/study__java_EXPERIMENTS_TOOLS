@@ -9,6 +9,8 @@
     </parent>
 
     <artifactId>app03-module</artifactId>
-    <packaging>jar</packaging>
-
+    <packaging>pom</packaging>
+    <modules>
+        <module>app03-module-view</module>
+    </modules>
 </project>

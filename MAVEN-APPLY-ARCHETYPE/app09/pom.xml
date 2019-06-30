@@ -2,16 +2,13 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
  
-    <parent>
-        <groupId>${groupId}</groupId>
-        <artifactId>${rootArtifactId}</artifactId>
-        <version>${version}</version>
-    </parent>
-
-    <artifactId>${rootArtifactId}-module</artifactId>
+    <groupId>com.union</groupId>
+    <artifactId>app09</artifactId>
+    <version>1.0</version>
     <packaging>pom</packaging>
-    <modules>
-        <module>${rootArtifactId}-module-view</module>
-    </modules>
 
+    <modules>
+        <module>app09-model</module>
+        <module>app09-module</module>
+    </modules>
 </project>

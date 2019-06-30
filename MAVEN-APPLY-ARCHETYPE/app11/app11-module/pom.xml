@@ -3,15 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
  
     <parent>
-        <groupId>${groupId}</groupId>
-        <artifactId>${rootArtifactId}</artifactId>
-        <version>${version}</version>
+        <groupId>com.union</groupId>
+        <artifactId>app11</artifactId>
+        <version>1.0</version>
     </parent>
 
-    <artifactId>${rootArtifactId}-module</artifactId>
+    <artifactId>app11-module</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>${rootArtifactId}-module-view</module>
+        <module>app11-module-view</module>
     </modules>
 
 </project>

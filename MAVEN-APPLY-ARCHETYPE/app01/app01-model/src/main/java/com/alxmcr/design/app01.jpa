@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jpa:entity-mappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:java="http://jcp.org/en/jsr/detail?id=270" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jpa="http://java.sun.com/xml/ns/persistence/orm" ptype="MONOLITH" ppkg="com.alxmcr" epkg="entity" v="5.2" rws="_15619492149137" Pws="_15619492149137" cws="_15619492149137" persistenceUnitName="DEFAULT_PU" sm="false" xs="false" id="_15619492149136" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm orm_2_1.xsd">
+    <jpa:entity compositePrimaryKeyClass="XxxPersonPK" abs="false" class="XxxPerson" v="true" jbn="false" xre="false" m="false" rootElement="_15619492149136" id="_15619492206348">
+        <jpa:ath>PC_INVADER</jpa:ath>
+        <jpa:attributes>
+            <jpa:id attribute-type="Long" v="true" xvt="" name="id" id="_15619492206349">
+                <jpa:xwm/>
+                <jpa:xm/>
+                <jpa:generated-value strategy="DEFAULT"/>
+            </jpa:id>
+        </jpa:attributes>
+        <jpa:nq e="false" name="XxxPerson.findAll">
+            <jpa:query>Select e from XxxPerson e</jpa:query>
+        </jpa:nq>
+    </jpa:entity>
+    <jpa:wsl>
+        <jpa:ws n="Main" id="_15619492149137">
+            <i ref="_15619492206348" x="343" y="254"/>
+        </jpa:ws>
+    </jpa:wsl>
+</jpa:entity-mappings>

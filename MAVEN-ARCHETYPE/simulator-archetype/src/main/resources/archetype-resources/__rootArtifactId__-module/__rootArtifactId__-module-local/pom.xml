@@ -2,13 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-    <artifactId>app01</artifactId>
-    <groupId>com.alxmcr</groupId>
-    <version>1.0</version>
+    <artifactId>${rootArtifactId}-module</artifactId>
+    <groupId>${groupId}</groupId>
+    <version>${version}</version>
   </parent>
-    <groupId>com.alxmcr</groupId>
-    <artifactId>app01-model</artifactId>
-    <version>1.0</version>
+    <groupId>${groupId}</groupId>
+    <artifactId>${artifactId}</artifactId>
+    <version>${version}</version>
     <packaging>war</packaging>
 
     <properties>
@@ -37,7 +37,7 @@
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
-            <version>8.0</version>
+            <version>7.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

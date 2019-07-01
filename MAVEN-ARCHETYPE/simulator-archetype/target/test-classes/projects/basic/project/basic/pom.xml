@@ -5,13 +5,13 @@
   <modelVersion>4.0.0</modelVersion>
         
   
-  <groupId>com.alxmcr</groupId>
+  <groupId>archetype.it</groupId>
         
   
-  <artifactId>app01</artifactId>
+  <artifactId>basic</artifactId>
         
   
-  <version>1.0</version>
+  <version>0.1-SNAPSHOT</version>
         
   
   <packaging>pom</packaging>
@@ -28,9 +28,9 @@
   
   <modules>
         
-    <module>app01-module</module>
+    <module>basic-module</module>
       
-    <module>app01-model</module>
+    <module>basic-model</module>
   </modules>
   
 </project>
